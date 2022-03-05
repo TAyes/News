@@ -13,6 +13,26 @@
 		888EBF9E27D3880000543950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888EBF9C27D3880000543950 /* Main.storyboard */; };
 		888EBFA027D3880200543950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888EBF9F27D3880200543950 /* Assets.xcassets */; };
 		888EBFA327D3880200543950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888EBFA127D3880200543950 /* LaunchScreen.storyboard */; };
+		888EBFB527D38E0F00543950 /* NewsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFB427D38E0F00543950 /* NewsTableCell.swift */; };
+		888EBFB727D38E1D00543950 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFB627D38E1D00543950 /* NewsViewModel.swift */; };
+		888EBFB927D38E3600543950 /* NewsUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFB827D38E3600543950 /* NewsUIViewController.swift */; };
+		888EBFBB27D38E4800543950 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFBA27D38E4800543950 /* News.swift */; };
+		888EBFBE27D38E7E00543950 /* NewsDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFBD27D38E7E00543950 /* NewsDetailTableViewController.swift */; };
+		888EBFC027D38E8A00543950 /* NewsDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFBF27D38E8A00543950 /* NewsDetailCell.swift */; };
+		888EBFC227D38EDE00543950 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFC127D38EDE00543950 /* Navigator.swift */; };
+		888EBFC427D38EED00543950 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFC327D38EED00543950 /* Destination.swift */; };
+		888EBFC627D38F0400543950 /* NewsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFC527D38F0400543950 /* NewsLoader.swift */; };
+		888EBFC827D38F1B00543950 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFC727D38F1B00543950 /* NetworkManager.swift */; };
+		888EBFCA27D38F3200543950 /* Network+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFC927D38F3200543950 /* Network+Error.swift */; };
+		888EBFCC27D38F4400543950 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFCB27D38F4400543950 /* Observable.swift */; };
+		888EBFCE27D38F5000543950 /* News+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFCD27D38F5000543950 /* News+Type.swift */; };
+		888EBFD027D38F6300543950 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFCF27D38F6300543950 /* ImageCache.swift */; };
+		888EBFD227D38F6D00543950 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFD127D38F6D00543950 /* ImageLoader.swift */; };
+		888EBFD427D38F8300543950 /* UITableView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFD327D38F8300543950 /* UITableView+Cell.swift */; };
+		888EBFD627D38F9800543950 /* UIViewController+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFD527D38F9800543950 /* UIViewController+Error.swift */; };
+		888EBFD827D38FBD00543950 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFD727D38FBD00543950 /* UIView+Constraints.swift */; };
+		888EBFDA27D38FCB00543950 /* Date+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFD927D38FCB00543950 /* Date+Time.swift */; };
+		888EBFDC27D3A14500543950 /* LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EBFDB27D3A14500543950 /* LoadImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		888EBF9F27D3880200543950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		888EBFA227D3880200543950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		888EBFA427D3880200543950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888EBFB427D38E0F00543950 /* NewsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableCell.swift; sourceTree = "<group>"; };
+		888EBFB627D38E1D00543950 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		888EBFB827D38E3600543950 /* NewsUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUIViewController.swift; sourceTree = "<group>"; };
+		888EBFBA27D38E4800543950 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		888EBFBD27D38E7E00543950 /* NewsDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailTableViewController.swift; sourceTree = "<group>"; };
+		888EBFBF27D38E8A00543950 /* NewsDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailCell.swift; sourceTree = "<group>"; };
+		888EBFC127D38EDE00543950 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		888EBFC327D38EED00543950 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		888EBFC527D38F0400543950 /* NewsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsLoader.swift; sourceTree = "<group>"; };
+		888EBFC727D38F1B00543950 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		888EBFC927D38F3200543950 /* Network+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Error.swift"; sourceTree = "<group>"; };
+		888EBFCB27D38F4400543950 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		888EBFCD27D38F5000543950 /* News+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "News+Type.swift"; sourceTree = "<group>"; };
+		888EBFCF27D38F6300543950 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		888EBFD127D38F6D00543950 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		888EBFD327D38F8300543950 /* UITableView+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Cell.swift"; sourceTree = "<group>"; };
+		888EBFD527D38F9800543950 /* UIViewController+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Error.swift"; sourceTree = "<group>"; };
+		888EBFD727D38FBD00543950 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		888EBFD927D38FCB00543950 /* Date+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Time.swift"; sourceTree = "<group>"; };
+		888EBFDB27D3A14500543950 /* LoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,12 @@
 		888EBF9527D3880000543950 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				888EBFAA27D38D3F00543950 /* Modules */,
+				888EBFAB27D38D4600543950 /* Navigation */,
+				888EBFAC27D38D5400543950 /* Protocol */,
+				888EBFAD27D38D6800543950 /* NetworkServices */,
+				888EBFAE27D38D7F00543950 /* Common */,
+				888EBFAF27D38D8900543950 /* Extensions */,
 				888EBF9627D3880000543950 /* AppDelegate.swift */,
 				888EBF9827D3880000543950 /* SceneDelegate.swift */,
 				888EBF9A27D3880000543950 /* ViewController.swift */,
@@ -65,6 +111,100 @@
 				888EBFA427D3880200543950 /* Info.plist */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		888EBFAA27D38D3F00543950 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFB027D38DA900543950 /* NewsList */,
+				888EBFB127D38DB300543950 /* NewsDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		888EBFAB27D38D4600543950 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFC127D38EDE00543950 /* Navigator.swift */,
+				888EBFC327D38EED00543950 /* Destination.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		888EBFAC27D38D5400543950 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFC527D38F0400543950 /* NewsLoader.swift */,
+				888EBFDB27D3A14500543950 /* LoadImage.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		888EBFAD27D38D6800543950 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFC727D38F1B00543950 /* NetworkManager.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		888EBFAE27D38D7F00543950 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFC927D38F3200543950 /* Network+Error.swift */,
+				888EBFCB27D38F4400543950 /* Observable.swift */,
+				888EBFCD27D38F5000543950 /* News+Type.swift */,
+				888EBFCF27D38F6300543950 /* ImageCache.swift */,
+				888EBFD127D38F6D00543950 /* ImageLoader.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		888EBFAF27D38D8900543950 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFD327D38F8300543950 /* UITableView+Cell.swift */,
+				888EBFD527D38F9800543950 /* UIViewController+Error.swift */,
+				888EBFD727D38FBD00543950 /* UIView+Constraints.swift */,
+				888EBFD927D38FCB00543950 /* Date+Time.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		888EBFB027D38DA900543950 /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFB227D38DDC00543950 /* View */,
+				888EBFB327D38DEC00543950 /* Model */,
+			);
+			path = NewsList;
+			sourceTree = "<group>";
+		};
+		888EBFB127D38DB300543950 /* NewsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFBD27D38E7E00543950 /* NewsDetailTableViewController.swift */,
+				888EBFBF27D38E8A00543950 /* NewsDetailCell.swift */,
+			);
+			path = NewsDetail;
+			sourceTree = "<group>";
+		};
+		888EBFB227D38DDC00543950 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFB827D38E3600543950 /* NewsUIViewController.swift */,
+				888EBFB427D38E0F00543950 /* NewsTableCell.swift */,
+				888EBFB627D38E1D00543950 /* NewsViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		888EBFB327D38DEC00543950 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				888EBFBA27D38E4800543950 /* News.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +278,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888EBFD427D38F8300543950 /* UITableView+Cell.swift in Sources */,
+				888EBFD627D38F9800543950 /* UIViewController+Error.swift in Sources */,
 				888EBF9B27D3880000543950 /* ViewController.swift in Sources */,
+				888EBFD827D38FBD00543950 /* UIView+Constraints.swift in Sources */,
+				888EBFCC27D38F4400543950 /* Observable.swift in Sources */,
+				888EBFD027D38F6300543950 /* ImageCache.swift in Sources */,
+				888EBFDA27D38FCB00543950 /* Date+Time.swift in Sources */,
+				888EBFC227D38EDE00543950 /* Navigator.swift in Sources */,
+				888EBFB927D38E3600543950 /* NewsUIViewController.swift in Sources */,
+				888EBFCE27D38F5000543950 /* News+Type.swift in Sources */,
+				888EBFCA27D38F3200543950 /* Network+Error.swift in Sources */,
+				888EBFC827D38F1B00543950 /* NetworkManager.swift in Sources */,
+				888EBFC627D38F0400543950 /* NewsLoader.swift in Sources */,
+				888EBFDC27D3A14500543950 /* LoadImage.swift in Sources */,
 				888EBF9727D3880000543950 /* AppDelegate.swift in Sources */,
+				888EBFC027D38E8A00543950 /* NewsDetailCell.swift in Sources */,
+				888EBFB727D38E1D00543950 /* NewsViewModel.swift in Sources */,
+				888EBFBB27D38E4800543950 /* News.swift in Sources */,
+				888EBFBE27D38E7E00543950 /* NewsDetailTableViewController.swift in Sources */,
+				888EBFD227D38F6D00543950 /* ImageLoader.swift in Sources */,
 				888EBF9927D3880000543950 /* SceneDelegate.swift in Sources */,
+				888EBFB527D38E0F00543950 /* NewsTableCell.swift in Sources */,
+				888EBFC427D38EED00543950 /* Destination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,8 +455,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,8 +485,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
